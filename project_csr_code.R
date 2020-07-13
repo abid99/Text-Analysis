@@ -35,7 +35,7 @@ ggplot(datafile, aes(x = as.character.Date(Publication.Year) , fill= Country.Sta
   gc()
   
 #####################################Q2###############################
-# Code for part 2
+
 # Text analysis by using text mining techniques
 library(NLP)
 library(tm)
